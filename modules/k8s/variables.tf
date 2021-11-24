@@ -11,7 +11,7 @@ variable "node_count" {
 }
 
 variable "machine_type" {
-  default = "e2-micro"
+  default = "e2-medium"
 }
 
 variable "cluster_namesub_ip_range" {
