@@ -6,11 +6,11 @@ variable "region" {
 }
 
 variable "cluster_cidr" {
-    default = "192.168.0.0/22"
+    default = "192.168.0.0/20"
 }
 
 variable "service_cidr" {
-  default = "192.168.64.0/22"
+  default = "192.168.16.0/20"
 }
 
 variable "cluster_range_name" {
