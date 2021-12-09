@@ -8,7 +8,7 @@ resource "google_container_cluster" "kuber" {
   location           = var.region
   remove_default_node_pool = true
   initial_node_count       = 3
-  default_max_pods_per_node = 40
+  default_max_pods_per_node = 25
   networking_mode = "VPC_NATIVE"
   network    = var.compute_network
   subnetwork = var.compute_subnetwork
