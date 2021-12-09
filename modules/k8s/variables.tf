@@ -7,7 +7,7 @@ variable "project" {
 }
 
 variable "node_count" {
-  default = 3
+  default = 2
 }
 
 variable "machine_type" {
